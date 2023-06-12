@@ -6,10 +6,10 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   plugins: [react(),
     VitePWA({  
-      strategies: 'injectManifest',
+      // strategies: 'injectManifest',
       registerType: 'autoUpdate',  
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],  
-      filename: 'firebase-messaging-sw.js',
+      // filename: 'firebase-messaging-sw.js',
       manifest: {  
         name: 'udin-notif',  
         short_name: 'udin-notif',  
